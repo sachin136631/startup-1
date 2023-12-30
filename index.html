@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en"  data-bs-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Components</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <style>
+  .hi{
+    margin-left: 3px;
+  }
+  .hola{
+    margin-left: 15px;
+  }
+  .one{
+    margin-left: 40px;
+  }
+
+  .two{
+    margin-left: 40px;
+  }
+  .three{
+    margin-left: 40px;
+  }
+
+  .container{
+    margin-right: 125px;
+  }
+
+  .pic3{
+    height:  30px;
+    margin-right: 10px ;
+  }
+  .her{
+    height:600px;
+    width: 800px;
+    margin-right: 600px;
+  }
+  </style>
+</head>
+
+<body>
+  
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./trash.svg" height="25"><span class="hi"> Neater</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item one">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item two">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown three">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="address" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="row flex-lg-row-reverse align-items-center g-5 py-5 hola">
+    <div class="col-10 col-sm-8 col-lg-6">
+      <img src="./Cleaning-post-01-scaled.jpeg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+    </div>
+    <div class="col-lg-6">
+      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Clean up with ease </h1>
+      <p class="lead">Welcome to our website, where we are on a mission to provide exceptional cleaning services to
+        customers in the UK. As a
+        startup, we believe that cleaning  doesn't have to be stressful or complicated, and we are passionate about making
+        the process as seamless and enjoyable as possible.</p>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <button type="button" class="btn btn-success btn-lg px-4 me-md-2">Book now</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">help</button>
+      </div>
+    </div>
+  </div>
+  <div class="container px-4 py-5 " id="icon-grid">
+    <h2 class="pb-2 border-bottom">Why us?</h2>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+      <div class="col d-flex align-items-start">
+        <img src="./briefcase.svg" class="pic3">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Proffesional</h3>
+          <p>Our team of professional collectors are trained to prioritize efficiency, organization, and attention to detail.
+          </p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <img src="./bus-front.svg" class="pic3">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Countrywide</h3>
+          <p>We offer a range of services to suit your individual needs, whether you're cleaning locally or across the owned land. </p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <img src="./chat-right-heart.svg" class="pic3">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Personal touch</h3>
+          <p>At our core, we believe that cleaning should be an exciting and positive experience, not a stressful one.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-xxl her">
+    <div id="carouselExampleIndicators" class="carousel slide hay">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active hehe">
+          <img src="./pagal.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item hehe">
+          <img src="./hei.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item hehe">
+          <img src="./kya.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
